@@ -88,4 +88,3 @@ https://github.com/thanhsang12t2/HostingAFullStackApplication/blob/main/.circlec
 - Infrastructure Diagram
 ![alt text](https://github.com/thanhsang12t2/HostingAFullStackApplication/blob/main/udagram/doc/screenshots/Infrastructure.png)
 
-
