@@ -76,7 +76,7 @@ Screenshots
 ![alt text](https://github.com/thanhsang12t2/HostingAFullStackApplication/blob/main/udagram/doc/screenshots/S3Bucket.png)
 - Link to hosted api: http://udagram-api-dev123.us-east-1.elasticbeanstalk.com/api/v0/feed
 ![alt text](https://github.com/thanhsang12t2/HostingAFullStackApplication/blob/main/udagram/doc/screenshots/api.png)
-- Link to hosted front-end: http://sangtt2.s3-website-us-east-1.amazonaws.com/home
+- Link to hosted front-end: http://sangtt2.s3-website-us-east-1.amazonaws.com
 ![alt text](https://github.com/thanhsang12t2/HostingAFullStackApplication/blob/main/udagram/doc/screenshots/fontend.png)
 
 ### Write a proper pipeline file using the config.yml format used by CircleCi
