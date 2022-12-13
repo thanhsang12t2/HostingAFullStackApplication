@@ -42,15 +42,15 @@ Provision the necessary AWS services needed for running the application:
 - Environment variables stored in AWS elastic beanstalk configuration
     - POSTGRES_USERNAME=postgres
     - POSTGRES_PASSWORD=15011993
-    - POSTGRES_HOST=database-1.ccbyuqu00sip.us-east-1.rds.amazonaws.com
+    - POSTGRES_HOST=database-1.cmbtds0uf7ou.us-east-1.rds.amazonaws.com
     - POSTGRES_DB=postgres
-    - AWS_BUCKET=arn:aws:s3:::myawsbucket781121
+    - AWS_BUCKET=arn:aws:s3:::sangtt2
     - AWS_REGION=us-east-1
     - AWS_PROFILE=default
     - JWT_SECRET=mysecretstring
-    - URL=http://udagram-api-dev781121.us-east-1.elasticbeanstalk.com/
+    - URL=http://udagram-api-dev123.us-east-1.elasticbeanstalk.com/
 - Environment variables for CI/CD stored in CircleCI Project Settings
-![alt text](https://github.com/duyvien/HostAFullStackApplication/blob/main/udagram/doc/screenshots/ProjectSettingsCircleCI.png)
+![alt text](https://github.com/thanhsang12t2/HostingAFullStackApplication/blob/main/udagram/doc/screenshots/ProjectSettingsCircleCI.png)
 - Write to scripts of the project-level package.json file
     - "frontend:install": "cd udagram/udagram-frontend && npm install -f"
     - "frontend:start": "cd udagram/udagram-frontend && npm run start"
@@ -67,25 +67,25 @@ Provision the necessary AWS services needed for running the application:
 ### Configure the needed infrastructure for a web application
 Screenshots
 - Last successful CircleCi build
-![alt text](https://github.com/duyvien/HostAFullStackApplication/blob/main/udagram/doc/screenshots/buildCircleCI.png)
+![alt text](https://github.com/thanhsang12t2/HostingAFullStackApplication/blob/main/udagram/doc/screenshots/buildCircleCI.png)
 - AWS RDS for the database overview
-![alt text](https://github.com/duyvien/HostAFullStackApplication/blob/main/udagram/doc/screenshots/RDS.png)
+![alt text](https://github.com/thanhsang12t2/HostingAFullStackApplication/blob/main/udagram/doc/screenshots/RDS.png)
 - AWS ElasticBeanstalk for the (backend) API deployment
-![alt text](https://github.com/duyvien/HostAFullStackApplication/blob/main/udagram/doc/screenshots/ElasticBeanstalk.png)
+![alt text](https://github.com/thanhsang12t2/HostingAFullStackApplication/blob/main/udagram/doc/screenshots/ElasticBeanstalk.png)
 - AWS S3 for (frontend) web hosting
-![alt text](https://github.com/duyvien/HostAFullStackApplication/blob/main/udagram/doc/screenshots/S3Bucket.png)
-- Link to hosted api: http://udagram-api-dev781121.us-east-1.elasticbeanstalk.com/api/v0/feed
-![alt text](https://github.com/duyvien/HostAFullStackApplication/blob/main/udagram/doc/screenshots/api.png)
-- Link to hosted front-end: http://myawsbucket781121.s3-website-us-east-1.amazonaws.com/home
-![alt text](https://github.com/duyvien/HostAFullStackApplication/blob/main/udagram/doc/screenshots/fontend.png)
+![alt text](https://github.com/thanhsang12t2/HostingAFullStackApplication/blob/main/udagram/doc/screenshots/S3Bucket.png)
+- Link to hosted api: http://udagram-api-dev123.us-east-1.elasticbeanstalk.com/api/v0/feed
+![alt text](https://github.com/thanhsang12t2/HostingAFullStackApplication/blob/main/udagram/doc/screenshots/api.png)
+- Link to hosted front-end: http://sangtt2.s3-website-us-east-1.amazonaws.com/home
+![alt text](https://github.com/thanhsang12t2/HostingAFullStackApplication/blob/main/udagram/doc/screenshots/fontend.png)
 
 ### Write a proper pipeline file using the config.yml format used by CircleCi
-https://github.com/duyvien/HostAFullStackApplication/blob/main/.circleci/config.yml
+https://github.com/thanhsang12t2/HostingAFullStackApplication/blob/main/.circleci/config.yml
 
 ### Architecture diagram to document the deployment flow
 - Development Pipeline Diagram
-![alt text](https://github.com/duyvien/HostAFullStackApplication/blob/main/udagram/doc/screenshots/Pipeline.png)
+![alt text](https://github.com/thanhsang12t2/HostingAFullStackApplication/blob/main/udagram/doc/screenshots/Pipeline.png)
 - Infrastructure Diagram
-![alt text](https://github.com/duyvien/HostAFullStackApplication/blob/main/udagram/doc/screenshots/Infrastructure.png)
+![alt text](https://github.com/thanhsang12t2/HostingAFullStackApplication/blob/main/udagram/doc/screenshots/Infrastructure.png)
 
 
